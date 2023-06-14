@@ -1,0 +1,582 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.logos{
+    background-color: grey;
+    width: 100%;
+    height: 1%;
+    
+}
+.emirates{
+    width: 10%;
+    height: 60px;
+    padding-right: 20px;
+    margin-left: 75%;
+}
+.addidas{
+    width: 10%;
+    height: 60px; 
+}
+.grey{
+    background-color: grey;
+    width: 100%;
+    height: 30px;
+}
+.head{
+    border-radius: 30px;
+    background-color: white;
+    width: 100%;
+    height: 1000px;
+}
+.real{
+    width: 12%;
+    height: 18%;
+    margin: 1% 1%;
+}
+.font{
+    text-align: center;
+    color: blue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    text-shadow: 5px 5px 10px;
+}
+.jude{
+    box-shadow: 10px 10px 5px 12px ;
+    width: 90%;
+    height: 80%;
+    margin: 8% 5%;
+}
+.statia{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+.text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+.flex{
+    margin: 5% 30% 0 30%;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+}
+main ul a.active::before{
+    content: "";
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #000000;
+    position: absolute;
+    bottom: 0;
+    top: 53%;
+    margin-left: 1.5%;
+}
+.footers{
+    margin-top: 170%;
+    background-color: lightgrey;
+    width: 100%;
+    height: 300px;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.line{
+    background-color: grey;
+    height: 5px;
+    width: 4%;
+    margin-left: 48%;
+}
+.footers a img{
+    padding-top: 5%;
+    padding-right: 1%;
+    width: 10%;
+    height: 60px;
+}
+.footersd{
+margin-top: 3%;
+}
+.footersp{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 30%;
+    color: grey;
+}
+.footerp{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40%;
+    color: grey;
+    margin-top: 1%;
+}
+/*tickets*/
+.ticket{
+    margin-top: 6%;
+    background-image: url('../imgs/tickets.jpg');
+    width: 100%;
+    height: 60%;
+} 
+.sent{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 8%;
+}
+.contact{
+    background-color: white;
+    width: 60%;
+    height: 400px;
+    margin-left: 20%;
+}
+.tick{
+    margin-top: 5%;
+    color: grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.reallogo{
+    width: 150px;
+    height: 200px;
+    margin-left: 75%;
+    transform: rotateZ(30deg);
+}
+.button{
+    position: relative;
+    background-color: blue;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    margin-left: 40%;
+    border-radius: 30px;
+    padding-top: 2%;
+    
+}
+.but{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+}
+.messige{
+    background-color: white;
+    width: 100%;
+    height: 300px;
+    margin-top: 5%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
+.convert{
+    width: 70px;
+    height: 50px;
+    margin-top: 2%;
+}
+.mail{
+    margin-top: 1%;
+}
+.pictures{
+    margin-top: 10%;
+}
+.basket{
+    background-image: url('../imgs/basketball.jpg');
+    width: 100%;
+    height: 650px;
+    margin-top: 5%;
+}
+.bcontact{
+    background-color: white;
+    width: 60%;
+    height: 450px;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.btick{
+    font-size: 20px;
+    color: lightgrey;
+}
+.bbut{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+.bbutton{
+    position: relative;
+    background-color: blue;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    margin-left: 40%;
+    border-radius: 50px;
+    padding-bottom: 2%;
+}
+/*merch*/
+.merchimg{
+    background-image:url('../imgs/merchimg.jpg');
+    width: 100%;
+    height: 700px;
+    margin-top: 2%;
+}
+.merchimgt{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: center;   
+}
+.shopNow{
+    border-color: white;
+    border-radius: 0%;
+    border-style:groove;
+    position: relative;
+    width: 10%;
+    margin-left: 45%;
+    margin-top: 3%;
+    color: white;
+    padding: 0.5%;
+}
+.shopNow:hover{
+    width: 11%;
+    height: 40px;
+    transition: 0.5s;
+    color: blue;
+}
+.shirts{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+.h11{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: blue;
+}
+.shirts a img{
+    width: 500px;
+    height: 500px;
+    margin-top: 5%;
+}
+.lastword{
+    border-style: groove;
+    border-color: black;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 20px;
+    color: #000000;
+}
+.lastword:hover{
+    transition: 0.5s;
+    color:blue;
+}
+/*tours*/
+.tourback{
+    background-image: url('../imgs/toursimg.jpg');
+    width: 100%;
+    height: 1000px;
+    margin-top: 3%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.p1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.p2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+.p3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+.p4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+.list{
+    width: 300px;
+    height: 500px;
+    background-color: lightcyan;
+    float: left;
+    margin-top: 3%;
+    margin-left: 16%;
+    border-radius: 30px;
+    text-align: center;
+    color: darkblue;
+    
+}
+.list2{
+    background-color: lightcyan;
+    width: 300px;
+    height: 500px;
+    float: left;
+    margin-top: 3%;
+    margin-left: 5%;
+    border-radius: 30px;
+}
+.list3{
+    background-color: lightcyan;
+    width: 300px;
+    height: 500px;
+    float:left;
+    margin-top: 3%;
+    margin-left: 5%;
+    border-radius: 30px;
+}
+.listt{
+    color: black;
+    margin-top: 40%;
+    font-size: 20px;
+}
+.listta{
+    background-color: blue;
+    border: 10px;
+    border-style:hidden;
+    border-radius: 20px;
+    color: white;
+    margin: 5% 20%;
+    padding: 3%;
+}
+.list1{
+    margin-top: 1%;
+}
+.listp{
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+.listu{
+    text-align: left;
+    color: grey;
+}
+.listtp{
+    color: blue;
+    text-decoration: underline;
+}
+.listimg{
+    width: 20px;
+    height: 20px;
+    margin-top: 2%;
+    position: relative;
+    text-align: center;
+}
+.list1{
+    text-align: center;
+}
+.listt{
+    text-align: center;
+}
+.listtp{
+    text-align: center;
+}
+.tourstext{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    margin-top: 5%;
+    text-align: center;
+}
+.tourstext1{
+    margin-top: 5%;
+    text-align: left;
+    font-size: 20px;
+}
+.tourstext2{
+    margin-top: 10%;
+    text-decoration: underline;
+    color: blue;
+}
+.tourslast{
+    background-image: url('../imgs/tourslastimg.jpg');
+    width: 100%;
+    height: 600px;
+    color: #00FFFF;
+    text-align: center;
+    font-size: 60px;
+}
+.tourslast1{
+    margin-top: 10%;
+    font-size: 40px;
+}
+/*about us*/
+.contacts{
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient(to right, blue , lightcyan);
+    margin-top: 5%;
+}
+.contactsh1{
+    text-transform: uppercase;
+    text-align: center;
+}
+.contactsp{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.contactsdiv{
+    margin-top: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.about{
+    background-color: rgb(0, 98, 255);
+    width: 100%;
+    height: 700px;
+    margin-top: 8%;
+}
+.aboutp{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: rgb(255, 234, 0);
+text-align: center;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 1% 2%;
+    margin: 2% 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  button {
+    background-color: #04AA6D;
+    color: white;
+    margin-left: 45%;
+    border: none;
+    cursor: pointer;
+    width: 9%;
+    position: relative;  
+  }
+  @keyframes button {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  button {
+    position: relative;
+    display: inline-block;
+    padding: 1% 2%;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 4px;
+    overflow: hidden;
+    animation: button 1s  infinite;
+  }
+  button:hover {
+    opacity: 0.8;
+  }
+  .cancelbtn {
+    width: auto;
+    padding: 1% 1%;
+    background-color: #f44336;
+  }
+  .container {
+    padding: 1%;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 1%;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+  .cancelbtn{
+    margin-left: 1%;
+  }
+  .aboutus{
+    margin-top: 3%;
+    background-color:rgba(171, 183, 183);
+    width: 100%;
+    height: 100%;
+  }
+  .aboutus p{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    display: block;
+    padding-top: 2%;
+  }
+  .aboutus a img{
+    width: 50px;
+    height: 50px;
+    margin-left: 17%;
+    padding-top:2%;
+  }
+  .aboutus1{
+    background-color: #acacac;
+    width: 100%;
+    height: 100%;
+  }
+  .aboutus12{
+    background-color: aliceblue;
+    width: 3%;
+    height: 13%;
+  }
+  .aboutus2{
+    background-color: #969696;
+    margin-top: 15%;
+    height: 50%;
+  }
+  .aboutus2 a img{
+    padding-left: 13%;
+  }
+  .line1{
+    background-color: grey;
+    height: 5px;
+    width: 10%;
+    margin-left: 45%;
+}
+form {
+      margin-bottom: 20px;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="file"],
+    input[type="submit"] {
+      margin-bottom: 10px;
+    }
+    
+    p {
+      margin-bottom: 5px;
+    }
+    
+    .result {
+      background-color: #f0f0f0;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
